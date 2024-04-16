@@ -136,6 +136,10 @@ h2 {
     backface-visibility:hidden;   
 }
 
+.container img{
+    width:100%;
+}
+
 .back {
     transform:rotateY(180deg);
 }
