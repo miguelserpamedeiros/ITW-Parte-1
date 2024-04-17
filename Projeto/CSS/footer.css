@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+iframe {
+    position:absolute;
+    width: 99%;
+    height: 100%;
+}
+
+* {
+    font-family: "Varela Round", sans-serif;
+    text-decoration: none;
+}
+
+
+
+footer{
+    background-color: antiquewhite;
+padding-left:0;
+margin-left:0;}
