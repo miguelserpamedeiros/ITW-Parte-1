@@ -52,7 +52,7 @@ h1 {
 
 .container {
     height:120px;
-    width:120px;
+    width:120px;                                                       /* Nao consegui mudar */
     perspective:1000px;
 }
 

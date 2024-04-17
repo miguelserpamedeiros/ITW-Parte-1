@@ -7,49 +7,61 @@
 
 h1 {
 
-    text-align:center;
+    text-align: left;
     font-size: 440%;
     letter-spacing:60%;
-    margin-top:5%; 
-    margin-left: 1%;                 
+    margin-top:6%; 
+    margin-left: 20%;                 
     font-weight: 100;  /* o quao escuro é o negrito */
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     letter-spacing:60%;
     font-size:250%;
-    margin-top:2%;
+    margin-bottom:2%;
     font-weight: 100;
 }
 h3 {
     overflow: auto;
-    text-align: centro;
+    text-align: left;
     letter-spacing:60%;
     font-size:250%;
-    margin-top:2%;
+    margin-top:2.5%;
+    margin-left: 10%;
     font-weight: 100;
 }
+
 /*
 h4 {
-    text-align: center;
-    letter-spacing:0.6rem;
-    font-size:1.5rem;
-    margin:2.5rem 20rem 2.5rem 20rem;
+    text-align: left;
+    letter-spacing:4%;
+    font-size:100%;
+    margin:0% 7%;
+    font-weight: 100;;
     font-weight: 100;
 }
 */
-
 .texto-informativo {
 
-    text-align: center; 
+    text-align: left; 
     font-size:100%;
-    margin-left: 20%;
+    margin: 0% 5%;
     font-weight: 100;
     width: 60%;
 }
+p {
+    text-indent: 3%;
+}
+
 footer {
     position: absolute;
     margin-top: 10%;
     left: 42.5%;
 }
+
+
+
+
+
+
