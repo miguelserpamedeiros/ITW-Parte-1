@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 
 iframe {
     position:absolute;
     width: 100%;
     height: 100%;
     top: 1%;
+}
+
+
+* {
+    font-family: "Varela Round", sans-serif;
+    text-decoration: none;
 }
 
 
