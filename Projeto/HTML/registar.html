@@ -6,7 +6,10 @@
         <title>
             AQUI HÁ GATO!
         </title>
-        <link rel="stylesheet" type="text/css" href="../CSS/1.PG_navigation.css">    
+        <link rel="stylesheet" type="text/css" href="../CSS/header.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/inicial.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/texto_centro.css">
+
     </head>
     <body>
         <header>
@@ -14,31 +17,29 @@
             </iframe>
         </header>
 
-        <h1>
-             Registro
-        </h1>
+        <h1>Registro</h1> <!-- Só para ajustar o titulo por enquanto -->
 
-    <div class="container">
-        <div class="registro">
-            <div class="nome">
-                <span>Username:</span>
-                <input type="text" id="username" name="username" required>
+        <div class="container">
+            <div class="registro">
+                <div class="nome">
+                    <span>Username:</span>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="email">
+                    <span>Email:</span>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="pass">
+                    <span>Password:</span>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="confirmar_pass">
+                    <span>Confirmar Password:</span>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
             </div>
-            <div class="email">
-                <span>Email:</span>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="pass">
-                <span>Password:</span>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div class="confirmar_pass">
-                <span>Confirmar Password:</span>
-                <input type="password" id="confirm-password" name="confirm-password" required>
-            </div>
+            <button type="submit">Registrar</button>
         </div>
-        <button type="submit">Registrar</button>
-    </div>
 </body>
 </html>
 
