@@ -1,0 +1,36 @@
+.gato-moldura{
+    position: relative;
+    margin-top: 10%;
+}
+
+.gato-moldura::before{
+    position: absolute;
+    background-image: url("../Imagens/5de9509d2d206fdeb138b56653ff2e09.jpg");
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position: center;
+    top: -21%;
+    left: -11%;
+    right: -11%;
+    bottom: -29%;
+    content: '';
+    z-index:-1;
+}
+
+.gato-pontuacoes{
+    position: relative;
+    width: 60%;
+    border: none;
+    border-collapse: collapse;
+    margin-left: 20%;
+}
+
+.gato-pontuacoes tr{
+    height: 50px;
+}
+
+.gato-pontuacoes td{
+    text-align: center;
+    border-bottom: 0.3rem double black;
+}
