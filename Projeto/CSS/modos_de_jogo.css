@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+* {
+    font-family: "Varela Round", sans-serif;
+    text-decoration: none;
+}
+
+
+h1{text-align: center;
+    font-size: 3rem;
+    letter-spacing:0.2rem;
+    font-weight: 100;
+    margin:0;
+}
+
+.navegador{display:block;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto;
+    width:80%;
+    height:auto;
+    position:relative;
+    margin-left: auto;
+    margin-right:auto;
+    grid-column-gap:10%;
+}
+
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    border: 1px solid black;
+}
+
+
+#content p, #content div{
+    text-align: center;}
+
+img {
+width:100%;
+height:100%;
+}
+
+.linha-1{margin:0;
+height:auto;
+width:auto;}
+
+
+.botao  {
+  padding: 8px 14px;
+  cursor:pointer;
+  border: 2px solid ;
+  box-shadow: 4px 4px 0 0;
+margin:10%;
+margin-left: auto;
+margin-right:auto;}
+
+.modos{width:100%;
+height:100%;}
+
+
+#frames{width:70%;
+    position:relative;
+    margin-left: auto;
+    margin-right:auto;
+    border-style: double;
+    border-color:crimson;
+    border-width: 5px;
+    padding:2% 5% 2% 5%;
+    margin-top:1rem;
+    border-width: 0.5rem;
+    
+}
+
+.third {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    text-align: center; /* Horizontally center the text */
+  }
