@@ -55,11 +55,13 @@ padding-bottom:2rem;}
   cursor:pointer;
   border: 2px solid ;
   box-shadow: 4px 4px 0 0;
+  transition-duration: 0.2s;
+
 }
 
 .botao:hover {
-    background-color: black;
-    transition: 0.7s;
-    color:white;
+    border: 2px solid ;
+    box-shadow: 0 0 0 0;
     cursor:pointer;
+    transform: translate(2px,2px);
 }
