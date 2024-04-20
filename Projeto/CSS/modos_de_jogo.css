@@ -8,13 +8,17 @@
 
 
 h1{text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing:0.2rem;
     font-weight: 100;
     margin:0;
 }
 
 .navegador{display:block;
+}
+
+@media only screen (min-width:600px) {
+
 }
 
 #content {
