@@ -27,9 +27,9 @@ h2 {
 
 h3 {
     overflow: auto;
-    text-align: centro;
+    text-align: center;
     letter-spacing: 60%;
-    font-size: 250%;
+    font-size: 100%;
     margin-top: 2%;
     font-weight: 100;
 }

@@ -80,6 +80,19 @@ video{
     width: 80%;
     display: block;
     margin: 4% 15% 4% 10%;
+<<<<<<< HEAD
+=======
+}
+
+
+.gato-moldura{
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 90%;
+    opacity: 0.5;
+>>>>>>> b222b1973983c3b78ca75c398756a3085b16c165
 }
 
 

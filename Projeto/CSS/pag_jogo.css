@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 @keyframes login_register {
@@ -12,12 +13,10 @@
     text-decoration: none;
 }
 
-.grid-container{
+body{
     display:grid;
-    margin-top: 20%;
-    height: 50%;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 50%;
+    grid-template-columns: 20% 60% 10%;
+    grid-template-rows: 10% 70% 10%;
 }
 
 h1 {
@@ -87,6 +86,10 @@ h1 {
     border-radius:5%;
 }
 
+.cabecalho{
+    grid-row:1/2;
+    grid-column: 1/4;
+}
 
 .flex-container{
     display:flex;
@@ -106,17 +109,21 @@ h1 {
 
 }
 
+.cabecalho{
+    grid-column: 1/4;
+}
 
 .flex-container{
     grid-column:2/3;
-    grid-row: 1/2;
+    grid-row:2/3;
 }
 
 .texto{
     grid-column:1/2;
-    grid-row: 1/2;
+    grid-row:2/3;
     margin-right: 10%;
     padding:2%;
+    z-index: 2;
 }
 
 table {
@@ -184,11 +191,10 @@ tr:nth-child(even) {
     justify-content:center;
 
 }
-
 .inicio img{
     position: absolute;
     height:8%;
-    top: 65%;
+    top: 50%;
     left: 45%;
     animation: login_register 1.5s infinite;
 }
@@ -217,8 +223,6 @@ tr:nth-child(even) {
 }
 */
 .gato_jogo{
-    grid-row: 1/2;
-    grid-column:3/4;
     margin-top:10%;
     height:100%;
     width:100%;
@@ -230,17 +234,6 @@ tr:nth-child(even) {
 .red{
     color:red
 }
-header {
-    position: relative;
-    width: 100%;
-    height: 10%;
-    padding-bottom: 56.25%; /* This is for a 16:9 aspect ratio. Adjust as needed. */
-  }
-  
-  header iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+iframe{
+    z-index: 1;
+}

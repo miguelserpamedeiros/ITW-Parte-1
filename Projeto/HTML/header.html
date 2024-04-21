@@ -6,32 +6,44 @@
         <title>
             AQUI HÁ GATO!
         </title>
-        <link rel="stylesheet" type="text/css" href="../CSS/header.css">    
+        <link rel="stylesheet" type="text/css" href="../CSS/header.css">
+
     </head>
     <body>
-        <header>
-            <div class="logo">
-            <a href="pag_inicial.html" title="Home" target="_parent"><img src="../Imagens/cat_logo.jpg"
-                        height="40"></a>
-        </div>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="pag_inicial.html" title="Home"target="_parent"><img src="../Imagens/cat_logo.jpg"
+                height="40"></a>
+            </div>
         
-        <nav class="nav_meio">
-            <ul>
+            <ul class="navbar-list">
                 <li><a href="regras_do_jogo.html" title="Regras do jogo" target="_parent">Regras</a></li>
-                <li><a href="tUtorial.html" title="Tutorial do jogo" target="_parent">Tutorial</a></li>
+                <li><a href="tutorial.html" title="Tutorial do jogo" target="_parent">Tutorial</a></li>
                 <li><a href="curiosidades.html" title="Curiosidades" target="_parent">Curiosidades</a></li>
-                <li><a href="pontuacoes.html" title="Pontuações" target="_parent">Pontuações</a></li>
+                <li><a href="sobre_nos.html" title="Sobre nós" target="_parent">Sobre nós</a></li>
+                <li><a href="pontuacoes.html" title="Pontuações"target="_parent">Pontuações</a></li>
             </ul>
-        </nav>
         
        
-        <nav class="perfil">
-            <ul>
-                <li>
-                    <a href="perfil.html" title="Perfil do jogador" target="_parent">Perfil</a>               
-                </li>
-            </ul>
+            <div class="perfil-dropdown">
+                <div class="perfil-dropdown-btn">
+                    <a> Perfil </a>
+                </div>
+
+
+                <ul class="perfil-dropdown-list">
+                    <li>
+                        Editar Perfil
+                    </li>
+                    <li>
+                        Estatísticas Pessoais
+                    </li>
+                    <li>
+                        Log Out
+                    </li>
+                </ul>
+            </div>
         </nav>
-        </header>
+
     </body>
     </html>
