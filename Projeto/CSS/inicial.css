@@ -6,49 +6,38 @@
     text-decoration: none;
 }
 
-@keyframes login_register {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
-    0% { box-shadow: 0 0 10px black; }
-    50% { box-shadow: 0 0 20px black; }
-    100% { box-shadow: 0 0 10px black; }
-  }
+h1 {
+    text-align:center;
+    font-size: 440%;
+    letter-spacing: 60%;
+    font-weight: 100;
+    margin-bottom:1rem ;
+}
 
-
-.linha_1 {
-    margin-top:3%;
-    height:100%;
-    width: 100%;
+h2 {
+    text-align:center;
+    font-size: 250%;
+    letter-spacing: 60%;
+    font-weight: 100;
+    margin-top:0;
+    margin-bottom: 2rem;
 }
 
 
-.linha_2 {
-    margin-top:5%;
-    margin-bottom: 5%;
-    height:80%;
-    width: 100%;
-}
+.cartas-meio{width:80%;
+margin-left: auto;
+margin-right:auto;}
 
-
-.linha_1 ul, .linha_2 ul {
-    display:flex;
-    justify-content:center;
-    margin-right: 8%;
-}
-
-
-.linha_1 li, .linha_2 li {
-    list-style-type: none;
-    margin-left: 6%; 
-       
-}
 
 
 .container {
     height:120px;
     width:120px;                                                       /* Nao consegui mudar */
     perspective:1000px;
+}
+
+.container img{
+    width:100%;
 }
 
 
@@ -76,11 +65,6 @@
 }
 
 
-.container img{
-    width:100%;
-}
-
-
 .back {
     transform:rotateY(180deg);
 }
@@ -95,16 +79,56 @@
 }
 
 
-.user {
-    display: flex;
-    justify-content: center;
-    margin-right:5%;
+.caixa{width:50%;
+    margin-left: auto;
+    margin-right:auto;}
+
+.caixa-botao{display: flex;
+    margin-top: 4rem;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
 }
 
+.botao  {
+    padding: 8px 14px;
+    cursor:pointer;
+    border: 2px solid ;
+    box-shadow: 4px 4px 0 0;
+    transition-duration: 0.2s;
+  
+  }
+  
+  .botao:hover {
+      border: 2px solid ;
+      box-shadow: 0 0 0 0;
+      cursor:pointer;
+      transform: translate(2px,2px);
+  }
 
-.user a {
-    display: inline-block; 
-    margin-left:5%;
-    width: 7.5%;
-    color:black;
+  @media (max-width: 768px) {
+    .cartas-meio{display: grid;
+    grid-column: auto auto;}
+}
+
+    .linha_1 {
+        display: flex;
+        margin-top:1rem;
+        height:100%;
+        width: 100%;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        gap:1rem;
+    }
+    
+    
+    .linha_2 {
+        display: flex;
+        height:100%;
+        width: 100%;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        margin-top:2rem;
+        gap:1rem;
+    
 }
