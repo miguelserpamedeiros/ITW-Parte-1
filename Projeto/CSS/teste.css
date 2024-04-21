@@ -15,7 +15,7 @@ iframe-header {
 
 
 
-.dropdown a {
+.dropdown-header a {
     margin: 0 1.5rem;
     color: black;
     text-decoration: none;
@@ -67,7 +67,7 @@ a:hover {
         margin-bottom:1rem;
     }
 
-    .dropdown{
+    .dropdown-header{
         position:absolute;
         top:0.4rem;
         right:5%;
@@ -76,23 +76,23 @@ a:hover {
         background-color:white;
     }
 
-    .dropdown svg {
+    .dropdown-header svg {
         width:2rem;
         transition: 0.4s ;
     
     }
     
-    .dropdown a{
+    .dropdown-header a{
         display:block;
         margin:0.5rem 0 0.5rem 0;
     }
 
-    .dropdown .content{display:none;}
+    .dropdown-header .content{display:none;}
 
 
-    .dropdown svg:hover{transform:scale(1.2)}
+    .dropdown-header svg:hover{transform:scale(1.2)}
 
-    .dropdown:hover .content{display:block;}
+    .dropdown-header:hover .content{display:block;}
 
 
 

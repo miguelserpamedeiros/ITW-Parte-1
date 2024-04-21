@@ -1,0 +1,116 @@
+.button-inicial {
+    height: 3rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: black;
+    font-size: 100%;
+    text-align: center;
+    align-content: center;
+    animation: login_register 1.5s infinite;
+    transition: all 0.3s ease-out;
+}
+
+.button-inicial:hover {
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target{
+    visibility:visible;
+    opacity:1;
+}
+
+
+.popup{
+    position: relative;
+    margin: 5% auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    width: 30%;
+    transition: all 5s ease-in-out;
+    align-content: center;
+}
+
+
+.popup .close {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-left:10%;
+}
+
+.popup .close:hover {
+    color: red;
+}
+
+.popup input{
+    position: relative;
+    margin-left:35%;
+    margin-bottom: 3%;
+}
+
+.popup button{
+    position:relative;
+    width:6rem;
+    margin-left:42%;
+    background-color: black;
+    color:white;
+    border-style: solid;
+    border-color:black;
+    opacity: 0.2;
+    border-radius: 5px;
+    margin-top: 5%;
+    cursor:pointer;
+}
+
+
+.box{
+    width: 60%;
+    margin: 0 auto;
+    background-image: url(../Imagens/geral/gato_tutorial.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size:contain;
+    padding: 5% 7% 5% 7%;
+    border-radius: 50px/50px;
+    background-clip: padding-box;
+    justify-items: center;
+    margin-bottom:5%;
+
+}
+
+input{
+    width:30%;
+}
+
+.dropdown{
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-button{
+    top:3%;
+    left:5%;
+}
