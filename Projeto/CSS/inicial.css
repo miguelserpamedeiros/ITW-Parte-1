@@ -16,27 +16,6 @@
   }
 
 
-.hide {
-    display:none;
-
-}
-
-
-.perfil:hover + .hide {
-    display: block;
-    border: dashed black;
-    border-radius: 25%;
-    background-color: lightgray;
-    padding: 1%;
-    position: absolute;
-    right: 2.2%;
-    top: 8%;
-    width: 7%;
-    text-align: center;
-    font-size: 90%;
-}
-
-
 .linha_1 {
     margin-top:3%;
     height:100%;
@@ -119,34 +98,13 @@
 .user {
     display: flex;
     justify-content: center;
+    margin-right:5%;
 }
 
 
 .user a {
-    display: inline-block;
-    justify-content:center; 
-    margin-left:2%;
+    display: inline-block; 
+    margin-left:5%;
     width: 7.5%;
+    color:black;
 }
-
-
-.user button {
-    height: 3rem;
-    width: 6rem;
-    background-color: white;
-    border-radius: 5%;
-    border-style: solid;
-    font-size: 100%;
-    animation: login_register 1.5s infinite;
-}
-
-
-.user button:hover {
-    background-color: black;
-    transition: 0.7s;
-    color:white;
-    cursor:pointer;
-}
-
-
-
