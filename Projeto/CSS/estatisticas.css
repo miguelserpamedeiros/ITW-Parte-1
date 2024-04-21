@@ -1,36 +1,66 @@
-.gato-moldura{
-    position: relative;
-    margin-top: 10%;
+html{
+    scroll-behavior: smooth;
 }
 
-.gato-moldura::before{
-    position: absolute;
-    background-image: url("../Imagens/5de9509d2d206fdeb138b56653ff2e09.jpg");
-    opacity: 0.2;
-    background-repeat: no-repeat;
-    background-size: 70% 100%;
-    background-position: center;
-    top: -21%;
-    left: -11%;
-    right: -11%;
-    bottom: -29%;
-    content: '';
-    z-index:-1;
-}
 
 .gato-pontuacoes{
     position: relative;
-    width: 60%;
-    border: none;
-    border-collapse: collapse;
-    margin-left: 20%;
+    display:flex;
+    list-style:none;
+    margin-top:2%;
+    letter-spacing:15%;
+    font-size: 120%;
+    justify-content: center;
+    width: 100%;
 }
 
-.gato-pontuacoes tr{
+.gato-pontuacoes li{
+    display: inline-block;
+    justify-content: center;
+    padding: 0% 1.3rem; 
+}
+
+.gato-pontuacoes a{
+    color:black;
+}
+
+.gato-pontuacoes a:hover{
+    color:red;
+}
+
+
+.gato-conjunto{
+    display:none;
+    margin-top: 6%;
+    width: 75%;
+}
+
+.gato-conjunto:target{
+    display:block;
+}
+
+
+.gato-tabela{
+    position: absolute;
+    border: none;
+    border-collapse: collapse;
+    margin-left: 32%;
+    margin-right: 20%;
+}
+
+.gato-tabela tr{
     height: 50px;
 }
 
-.gato-pontuacoes td{
+.gato-tabela td{
     text-align: center;
     border-bottom: 0.3rem double black;
+}
+
+.gato-tabela td:first-child{
+    width:30%;
+}
+
+.gato-tabela td:first-child + td + td {
+    width:50%;
 }
