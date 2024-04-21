@@ -14,7 +14,6 @@ iframe-header {
 }
 
 
-body{margin:0;}
 
 .dropdown a {
     margin: 0 1.5rem;
@@ -31,6 +30,10 @@ body{margin:0;}
 a:hover {
     color:red;
 }
+
+.logo img {
+    max-height: 2.5rem;
+  }
   
 @media (min-width: 770px) {
     
@@ -41,9 +44,7 @@ a:hover {
     padding: 0.7rem;
   }
   
-  .navbar img {
-    max-height: 2.6rem;
-  }
+
 
   .logo{margin-left:5%;}
 
@@ -57,12 +58,11 @@ a:hover {
     .logo,.profile {
         text-align: center;
         display:inline;
-        margin-left:50%;
+        margin-left:47%;
 
     }
 
     .logo img{
-        width:40px;
         margin-top:1rem;
         margin-bottom:1rem;
     }
@@ -73,22 +73,25 @@ a:hover {
         right:5%;
         text-align: right;
         display:inline;
+        background-color:white;
     }
 
     .dropdown svg {
         width:2rem;
         transition: 0.4s ;
+    
     }
     
     .dropdown a{
         display:block;
         margin:0.5rem 0 0.5rem 0;
-}
+    }
 
     .dropdown .content{display:none;}
 
 
     .dropdown svg:hover{transform:scale(1.2)}
+
     .dropdown:hover .content{display:block;}
 
 
