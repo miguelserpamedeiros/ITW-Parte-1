@@ -14,68 +14,87 @@ iframe {
     text-decoration: none;
 }
 
-
-.logo {
+.navbar-logo {
     position: relative;
-    left: 5%;
 }
 
 .logo a img {
-    height: 40px;     /* Nao consegui mudar */
+    height: 40px;
 }
 
-
-.perfil {
-    position: relative;
-    right:5%;
-}
-
-
-header {
-    display: flex;
-    justify-content: space-between;
+.navbar {
+    display:flex;
     align-items: center;
+    justify-content: space-between;
+    height:10%;
+    padding:0 8%;
 }
 
-.nav_meio, .perfil {
-    list-style: none;
-    letter-spacing:15%;
-    font-size: 120%;}
+.navbar-list {
+    width:100%;
+    text-align: center;
+}
 
-.nav_meio, .perfil {
+.navbar-list li {
+    display:inline-block;
+    padding: 0% 1.3rem;
     list-style: none;
     letter-spacing:0.15rem;
-    font-size: 1rem;
+    font-size: 100%;
 }
 
-.nav_meio a, .perfil a {
+.navbar-list li a {
+    list-style: none;
+}
+
+.navbar-list li a {
     color:black;
 }
 
-.nav_meio a:hover, .perfil a:hover {
+.navbar-list li a:hover {
     color:red;
 }
 
-.nav_meio {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.perfil-dropdown{
+    position:relative;
+    display: inline-block;
+    width:fit-content; 
 }
 
-.nav_meio li {
-    display: inline-block;  
-    padding: 0% 1.3rem;                                                      /* Não consigo mudar */
+.perfil-dropdown-btn{
+    display:flex;
+    width:15%;
+    align-items:center;
+    justify-content: space-between;
+    cursor:pointer;
+    list-style: none;
+    letter-spacing:0.15rem;
+    font-size: 100%;
+}
+
+.perfil-dropdown-btn:hover {
+    color:red;
+}
+
+.perfil-dropdown-list {
+    display: none;
+    position:absolute;
+    z-index:1;
+    height:100%;
+    width: 50%;
 }
 
 
-.perfil li {
-    display:inline-block;
-}
-.nav_meio li {
-    display:inline-block;
-    padding: 0rem 1.3rem;
+.perfil-dropdown-list a {
+    position: absolute;
+    display: inline-block;
+    align-items: center;
+    letter-spacing:0.15rem;
+    font-size: 100%;
+    font-weight: 200;
+    color:black;
 }
 
-.perfil li {
-    display:inline-block;
+.perfil-dropdown:hover .perfil-dropdown-list {
+    display:block;
 }
