@@ -9,6 +9,8 @@
         <link rel="stylesheet" type="text/css" href="../CSS/header.css">
         <link rel="stylesheet" type="text/css" href="../CSS/texto_centro.css">
         <link rel="stylesheet" type="text/css" href="../CSS/inicial.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/box.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/media.css">
     </head>
     <body>
         <header>
@@ -121,16 +123,62 @@
         </div>
         
         <div class="user">
-            <a href="login.html" title="login"><button> Log in</button></a>
-            <a href="registar.html" title="registar"><button>Registar</button></a>
+            <a class="button-inicial" href="#popup-login"> Login </a>
+            <a class="button-inicial" href="#popup-registar"> Sign in </a>
         </div>
+
+        <div id="popup-login" class="overlay">
+            <div class="popup">
+                    <h2> <span style="color:red">Entra</span> no Jogo!</h2>
+                    <div class="gato_login">
+                        <img src="../Imagens/inicial/gato_login.png">
+                    </div>
+                    <a class="close" href="#">&times;</a>
+                    <div>
+                        <h3><span>Email:</span></h3>
+                        <input type="email" placeholder="Enter Email" name="email" required>
+                    </div>
+                    <div>
+                        <h3><span>Password:</span></h3>
+                        <input type="password" placeholder="Password" name="password" required>
+                    </div>
+                    <a href="modos_de_jogo.html" title="Modos do Jogo"><button type="submit"> Login </button></a>
+            </div>
+        </div>
+
+        <div id="popup-registar" class="overlay">
+            <div class="popup">
+                    <h2> <span style="color:red">Bem-vindo!</span></h2>
+                    <div class="gato_registar">
+                        <img src="../Imagens/inicial/gato_registar.png">
+                    </div>
+                        <a class="close" href="#">&times;</a>
+                        <div>
+                            <h3><span>Username:</span></h3>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div>
+                            <h3><span>Email:</span></h3>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <h3><span>Password:</span></h3>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div>
+                            <h3><span>Confirmar Password:</span></h3>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>
+                        <a href="pag_inicial.html" title="Página Inicial"><button type="submit"> Registar </button></a>
+            </div>
+        </div>
+
+        </div>
+
+
+
+
+
     </body>
-    <hidden>
-        <audio autoplay hidden loop controls>
-            <source src="../Audio/Cute Cat-[AudioTrimmer.com].mp3"
-            type="audio/mpeg">
-            Your browser does not support audio.
-        </audio>
-    </hidden>
 </html>
       
