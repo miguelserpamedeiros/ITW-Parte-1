@@ -59,4 +59,18 @@ function cancelaJogo() {
   }
 
 
+
+  document.getElementById("numeroCarta").addEventListener("input", function() {
+  // Obtem o valor digitado pelo usuário
+  let numero = parseInt(this.value);
+  
+  // Verifica se existe uma carta com o ID correspondente ao número digitado
+  let carta = document.getElementById(numero);
+  
+  // Se existir uma carta com o ID correspondente, vira-a
+  if (carta) {
+    carta.classList.toggle("virada");
+  }
+});
+
 window.addEventListener("load", principal);

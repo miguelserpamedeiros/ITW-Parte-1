@@ -1,0 +1,30 @@
+------- Introdução às Tecnologias Web -------
+-------           Grupo 39            -------
+
+Neste trabalho, cada elemento do grupo participou 33,3% para a sua realização.
+Apesar de todos termos participado um bocadinho em cada página, fica assim as 
+principais contribuições de cada elemento do grupo:
+
+- Rita Wang
+
+Página inicial: html e css , tema geral e layout
+Barra de navegação: media queries para a barra, layout, css
+Footer: layout, css
+Pagina de modo de jogo: css, html, layout
+Perfil: layout,html,
+
+- José Medeiros, 58607
+
+Regras do Jogo: html, css e media queries;
+Página do Jogo: html, css e media queries;
+Tutorial: html
+Layout - Responsive css;
+
+
+- Iolanda Leal, 48069
+
+Páginal Inicial: Pop-ups Login e Registar - html, css e media queries;
+Tutorial: css e media queries.
+Curiosidades: html, css e media queries;
+Pontuações: html, css e media queries;
+Barra de navegação: Dropdowns e media queries;

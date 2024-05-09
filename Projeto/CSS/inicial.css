@@ -23,12 +23,11 @@ h2 {
     margin-bottom: 2rem;
 }
 
-
-.cartas-meio{width:80%;
-margin-left: auto;
-margin-right:auto;}
-
-
+.cartas-meio{
+    width:80%;
+    margin-left: auto;
+    margin-right:auto;
+}
 
 .container {
     height:120px;
@@ -99,14 +98,15 @@ margin-right:auto;}
   
   }
   
-  .botao:hover {
+.botao:hover {
       border: 2px solid ;
       box-shadow: 0 0 0 0;
       cursor:pointer;
       transform: translate(2px,2px);
   }
 
-  @media (max-width: 768px) {
+
+@media (max-width: 769px) {
     .cartas-meio{display: grid;
     grid-column: auto auto;}
 }
@@ -130,9 +130,4 @@ margin-right:auto;}
         flex-wrap: wrap;
         margin-top:2rem;
         gap:1rem;
-    
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> b222b1973983c3b78ca75c398756a3085b16c165
+    }
