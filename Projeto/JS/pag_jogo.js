@@ -21,6 +21,8 @@ const BOTAO_CANCELAR_JOGO = 'cancel';
 
 const SPAN_TEMPO_JOGO ="spanTempoJogo";
 
+const NUMERO_CARTA = "numb";
+
 let jogo = {
     inicio: null,
     tentativas: null
@@ -35,6 +37,8 @@ function defineEventListenersParaElementosHTML() {
 
     document.getElementById(BOTAO_CANCELAR_JOGO).
     addEventListener("click", cancelaJogo)
+
+    document.getElementById(NUMERO_CARTA).addEventListener("input", escolhaNumero)
   }
 
 
@@ -60,17 +64,18 @@ function cancelaJogo() {
 
 
 
-  document.getElementById("numeroCarta").addEventListener("input", function() {
-  // Obtem o valor digitado pelo usuário
-  let numero = parseInt(this.value);
+  function escolhaNumero () {
+    console.log(this.value)
+  let numero = this.value;
   
   // Verifica se existe uma carta com o ID correspondente ao número digitado
   let carta = document.getElementById(numero);
+  console.log(carta)
   
   // Se existir uma carta com o ID correspondente, vira-a
   if (carta) {
-    carta.classList.toggle("virada");
+    carta.style.transform = "rotateY(180deg)";
   }
-});
+};
 
 window.addEventListener("load", principal);
