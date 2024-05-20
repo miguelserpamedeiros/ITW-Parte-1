@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-PT">
+    <head>
+        <meta charset="utf-8">
+        
+        <title>
+            AQUI HÁ GATO!
+        </title>
+        <link rel="stylesheet" type="text/css" href="../CSS/text.css">    
+        <link rel="stylesheet" type="text/css" href="../CSS/tables.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/geral.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/media.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/header-footer.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/funcionalidades.css">
+
+        <script src="../JS/main.js"></script>   
+    </head>
+    <body class = "pagina-jogo">
+        <div class ="pagina-jogo-cabecalho">
+            <my-header></my-header>
+        </div>
+        <div class ="tabuleiro" id="tabuleiro">
+        
+        </div>
+
+        <div class = "pagina-jogo-col-dir">
+            <div class="funcoes-jogo">
+                <span> <span class="red">Clique</span> na carta ou <span>digite</span> o número:</span>
+                <input type="text" id="numb" name="number" required>
+                <button id="okButton">OK</button>
+            </div>
+            <table class = "jogo-informacao-table">
+                <tr>
+                    <th>Dados do Jogo</th>
+                    <th scope="col">Player 1</th>
+                    <th scope ="col">Player 2</th>
+                </tr>
+                <tr>
+                    <th scope ="row">Máx Pontos</th>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="row">Pontos</th>
+                    <td id="pontos1">2</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope ="row">Tentativas</th>
+                    <td id="trys1">3</td>
+                    <td id="trys2">6</td>
+                </tr>
+                <tr>
+                    <th scope ="row">Tempo</th>
+                    <td id="tempo1">0</td>
+                    <td id="tempo2">2:30</td>
+                </tr>
+                <tr>
+                    <th scope ="row">Timer</th>
+                    <td id="timer1">0</td>
+                </tr>
+
+            </table>
+        
+        <div class="comandos">
+            <a href="modos_de_jogo.html" title="Options" target="_parent"><img src="../Imagens/jogo/opcoes.png"></a>
+            <img id="pause" src="../Imagens/jogo/pausa.png">
+            <img id="play" src="../Imagens/jogo/jogar.png">
+            <img id="deck" src="../Imagens/jogo/deck.png">
+            <img id="mute" src="../Imagens/jogo/mute.png">
+            <img id="cancel" src="../Imagens/jogo/end.png">
+        </div>
+        
+    </div>
+
+        <div class = "pagina-jogo-col-esq">
+            <img class="start_animation" id="start" src="../Imagens/jogo/start.png">
+            <img id = "gato_lapis" src="../Imagens/jogo/gato_jogo.png">
+
+        </div>
+        
+        <div class="pagina-jogo-rodape">
+            <my-footer></my-footer>
+        </div>
+        <script src="../JS/pag_jogo.js"></script>
+    </body>
+    <hidden>
+        <audio autoplay hidden loop controls>
+            <source src="../Audio/Cute Cat-[AudioTrimmer.com].mp3"
+            type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+    </hidden>
+</html>
+      

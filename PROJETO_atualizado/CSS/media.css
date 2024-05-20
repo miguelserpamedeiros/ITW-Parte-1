@@ -1,0 +1,353 @@
+.logo img {
+    max-height: 2.5rem;
+  }
+
+.imagemfoot{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer img{
+    width:5rem;
+}
+
+.foto-perfil{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+    width:11rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+    
+.foto-perfil img{
+    width:100%
+}
+
+.comandos {
+    border: double red;
+    margin-top:20%;
+    text-align: center;
+    width:100%;
+}
+
+.comandos img{
+    width:50px;
+    padding:2%;
+    margin-right: 5%;
+}
+
+@media (min-width: 770px){
+    .gato_login {
+        position: absolute;
+        height:100%;
+        left:2%;
+    }
+
+    .gato_login img{
+        height:50%;
+    }
+
+    .gato_registar{
+        position: absolute;
+        height:100%;
+        top:10%;
+        left:58%;
+    }
+
+    .gato_registar img{
+        height:90%;
+    }
+
+    .gato_curiosidades {
+        position: absolute;
+        top: 20%;
+        right: 0%;
+        left: 72%;
+        height: 60%;
+    }
+    
+    .gato_curiosidades img{
+        height: 80%;
+    }
+
+    .tutorial-box{
+        width: 60%;
+        margin: 0 auto;
+        background-image: url("../Imagens/geral/gato_tutorial.jpg");
+        background-position: center;
+        background-repeat: repeat-x;
+        background-size:contain;
+        padding: 5% 7% 5% 7%;
+        border-radius: 50px/50px;
+        background-clip: padding-box;
+        justify-items: center;
+        margin-bottom:5%;
+    }
+    
+    video{
+        width: 80%;
+        display: block;
+        margin: 4% 15% 4% 10%;
+    }
+
+    .gatos_nos1 {
+        position: absolute;
+        top:20%;
+        left:0%;
+        height:100%;
+    }
+
+    .gatos_nos1 img{
+        height:25%;
+    }
+
+    .gatos_nos2 {
+        position: relative;
+        left:30%;
+        bottom:0%;
+        height:100%;
+    }
+
+    .gatos_nos2 img{
+        height:25%;
+    }
+
+    .gatos_nos3 {
+        position: absolute;
+        top:20%;
+        right:0%;
+        height:100%;
+    }
+
+    .gatos_nos1 img{
+        height:25%;
+    }
+
+    #start { 
+        margin-top: 20%;
+        width: 70%;
+    }
+    
+    #gato_lapis{
+        width:100%;
+    }
+
+    .foto-perfil{
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 5px;
+        width:11rem;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .foto-perfil img{
+        width:100%
+    }
+
+    .gato_geral {
+        position: fixed;
+        top: 20%;
+        left:70%;
+        max-width: 70%;
+        min-width: 30%; /* Limit the maximum width of the image */
+        z-index: 1; /* Ensure image stays above other content */
+    }
+    
+    .gato_geral img {
+        width: 80%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+}
+
+@media (max-width:769px) {
+
+    .logo img {
+        max-height: 2.5rem;
+        margin-left: -1%;
+      }
+
+    .gato_login {
+        position: absolute;
+        height:100%;
+        left:-5%;
+    }
+
+    .gato_login img{
+        height:50%;
+    }
+
+    .gato_registar{
+        position: absolute;
+        height:100%;
+        top:10%;
+        left:58%;
+    }
+
+    .gato_registar img{
+        height:90%;
+    }
+
+    .gato_geral {
+        position: fixed;
+        top: 40%;
+        left:75%;
+        max-width: 70%;
+        min-width: 30%; /* Limit the maximum width of the image */
+        z-index: 1; /* Ensure image stays above other content */
+    }
+    
+    .gato_geral img {
+        width: 80%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .tutorial-box{
+        width: 80%;
+        margin: 0 auto;
+        background-image: url("../Imagens/geral/gato_tutorial.jpg");
+        background-position: center;
+        background-repeat: repeat-x;
+        background-size:contain;
+        padding: 5% 10% 5% 10%;
+        border-radius: 50px/50px;
+        background-clip: padding-box;
+        justify-items: center;
+    }
+    
+    video{
+        width: 100%;
+        display: flex;
+    }
+
+    .gato_curiosidades {
+        position: relative;
+        margin-left:0%;
+        height: 20%;
+    }
+    
+    .gato_curiosidades img{
+        height: 100%;
+    }
+
+    .gatos_nos1 {
+        position: absolute;
+        top:30%;
+        left:0%;
+        height:100%;
+    }
+
+    .gatos_nos1 img{
+        height:10%;
+    }
+
+    .gatos_nos2 {
+        position: relative;
+        right: 2%;
+        bottom:0%;
+        height:100%;
+    }
+
+    .gatos_nos2 img{
+        height:5%;
+    }
+
+    .gatos_nos3 {
+        position: absolute;
+        top:40%;
+        right:0%;
+        height:100%;
+    }
+
+    .gatos_nos3 img{
+        height:10%;
+    }
+
+    #start { 
+        width: 20%;
+        margin-top: 20%;
+    }
+    #gato_lapis{
+        width:25%;
+        margin-top: 10%;
+    }
+
+    .comandos{
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .container {    
+        height:7rem;
+        width:7rem;                                        
+    }
+    .pagina-jogo{
+        display:grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+    }
+    .tabuleiro{
+        grid-column: 2/3;
+        grid-row:2/3;
+        justify-content: center;
+        margin-right: 10%;
+
+
+    }
+    .pagina-jogo-col-esq{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: flex;
+        max-width: 60%;
+        margin-left: 10%;
+
+    }
+
+    .pagina-jogo-col-dir{
+        display: flex;
+        flex-direction: row;
+        margin-left:5%;
+        grid-column:1/3;
+        grid-row:3/4;
+        padding:2%;
+        z-index: 2;
+    }
+
+    .pagina-jogo-rodape {
+        grid-row: 4/5;
+        grid-column: 1/3;
+
+    .pagina-jogo-rodape footer{
+            left:25%;
+            right: 25%;
+    }
+    
+
+    }
+    .texto{
+        margin-top: 2%;
+        font-size:120%;
+        margin-right: 2%;
+        padding: 3.5%;
+    }
+    .texto input{
+        
+        text-align: center;
+        width:25%;
+        height:5%;
+    }
+   funcoes-jogo{
+    width:100%;
+   }
+    jogo-infotmacao-table, .comandos{
+        margin-top: 2%;
+        margin-left: 8%;
+    }
+
+}

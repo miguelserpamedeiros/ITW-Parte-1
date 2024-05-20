@@ -1,0 +1,55 @@
+.pontuacoes-tabela tr{
+    height: 0%;
+}
+
+.pontuacoes-tabela td{
+    text-align: center;
+    border-bottom: 0.3rem double black;
+}
+
+.pontuacoes-tabela td:nth-child(1){
+    width:5%;
+}
+
+.pontuacoes-tabela td:nth-child(2){
+    width:10%;
+}
+
+.pontuacoes-tabela td:nth-child(3){
+    width:10%;
+}
+
+.pontuacoes-tabela{
+    border: none;
+    border-collapse: collapse;
+    height:80%;
+    width:80%;
+    margin-left:40%;
+}
+
+
+
+.jogo-informacao-table {
+    border-collapse: collapse;
+    margin-top: 20%;
+}
+
+.jogo-informacao-table th, .jogo-informacao-table td {
+    font-size: 100%;                                          
+    border: ridge black;
+    text-align: center;
+}
+
+.jogo-informacao-table th {
+    background-color: #f2f2f2;
+}
+
+.jogo-informacao-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+    .jogo-informacao-table {
+        margin-top: 3%;
+    }
+}

@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt-PT">
+    <head>
+        <meta charset="utf-8">
+        
+        <title>
+            AQUI HÁ GATO!
+        </title>
+        <link rel="stylesheet" type="text/css" href="../CSS/funcionalidades.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/text.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/boxes-buttons.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/geral.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/media.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/header-footer.css">
+
+        <script src="../JS/main.js"></script>   
+
+        
+    </head>
+    <body>
+        <my-header></my-header>
+
+
+        <h1 class = "h1-center">
+            AQUI HÁ <span class="red">GATO</span>!
+        </h1>
+        
+        <h2 class = "h2-center">
+            Jogo de Memória
+        </h2>
+    
+        <div class="inicial-cartas-layout">
+            <div class="inicial-layout-linha-1">
+            
+                <!-- CARTA 1/1 -->
+                
+                    <div class="inicial-layout-container">
+                        <div class="container-card">
+                            <div class="cards-front">
+                                <img src="../Imagens/inicial/pata.jpg">
+                            </div>
+                            <div class="cards-back">
+                                <img src="../Imagens/inicial/gato%20(2).png">
+                            </div>
+                        </div>
+                    </div>
+                
+
+                
+                <!-- CARTA 1/2 -->
+                
+                    <div class="inicial-layout-container">
+                        <div class="inicial-cards-nao-vira"><img src="../Imagens/inicial/gato%20(4).png"></div>
+                    </div>
+                
+                
+                
+                <!-- CARTA 1/3 -->
+                
+                    <div class="inicial-layout-container">
+                        <div class="container-card">
+                            <div class="cards-front">
+                                <img src="../Imagens/inicial/pata.jpg">
+                            </div>
+                            <div class="cards-back">
+                                <img src="../Imagens/inicial/gato%20(1).png" >
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                
+                <!-- CARTA 1/4 -->
+                
+                    <div class="inicial-layout-container">
+                        <div class="container-card">
+                            <div class="cards-front">
+                                <img src="../Imagens/inicial/pata.jpg">
+                            </div>
+                            <div class="cards-back">
+                                <img src="../Imagens/inicial/gato%20(3).png">
+                            </div>
+                        </div>
+                    </div>
+                
+             
+        
+        </div>
+        
+        
+        <div class="inicial-layout-linha-2">
+           
+                <!-- CARTA 2/1 -->
+                
+                    <div class="inicial-layout-container">
+                        <div class="inicial-cards-nao-vira"><img src="../Imagens/inicial/gato%20(1).png"></div>
+                    </div>
+                
+                
+                <!-- CARTA 2/2 -->
+                
+                    <div class="inicial-layout-container">
+                        <div class="container-card">
+                            <div class="cards-front">
+                                <img src="../Imagens/inicial/pata.jpg">
+                            </div>
+                            <div class="cards-back">
+                                <img src="../Imagens/inicial/gato%20(2).png" >
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                <!-- CARTA 2/3 -->
+                
+                    <div class="inicial-layout-container">
+                        <div class="inicial-cards-nao-vira"><img src="../Imagens/inicial/gato%20(4).png"></div>
+                    </div>
+                
+                
+                <!-- CARTA 2/4 -->
+              
+                    <div class="inicial-layout-container">
+                        <div class="inicial-cards-nao-vira"><img src="../Imagens/inicial/gato%20(3).png"></div>
+                    </div>
+            
+        </div>
+        </div>
+            
+        <div class="login-signin">
+            <div class="login-signin-btn">
+                <a href="#popup-login"><button class="botao-geral"> Log in</button></a>
+                <a href="#popup-registar"><button class="botao-geral"> Registar</button></a>
+            </div>
+        </div>
+
+        <div id="popup-login" class="overlay">
+            <div class="popup">
+                    <h2 class = "h2-center"> <span class="red">Entra</span> no Jogo!</h2>
+                    <div class="gato_login">
+                        <img src="../Imagens/inicial/gato_login.png">
+                    </div>
+                    <a class="close" href="#">&times;</a>
+                    <div>
+                        <h3 class = "h3-center"><span>Email:</span></h3>
+                        <input type="email" placeholder="Enter Email" name="email" required>
+                    </div>
+                    <div>
+                        <h3 class = "h3-center"><span>Password:</span></h3>
+                        <input type="password" placeholder="Password" name="password" required>
+                    </div>
+                    <a href="modos_de_jogo.html" title="Modos do Jogo"><button type="submit" class = "botao-geral" id = "login-btn"> Login </button></a>
+            </div>
+        </div>
+
+        <div id="popup-registar" class="overlay">
+            <div class="popup">
+                    <h2 class = "h2-center"> <span class="red">Bem-vindo!</span></h2>
+                    <div class="gato_registar">
+                        <img src="../Imagens/inicial/gato_registar.png">
+                    </div>
+                        <a class="close" href="#">&times;</a>
+                        <div>
+                            <h3 class = "h3-center"><span>Username:</span></h3>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div>
+                            <h3 class = "h3-center"><span>Email:</span></h3>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <h3 class = "h3-center"><span>Password:</span></h3>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div>
+                            <h3 class = "h3-center"><span>Confirmar Password:</span></h3>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>
+                        <a href="pag_inicial.html" title="Página Inicial"><button type="submit" class = "botao-geral" id = "registar-btn"> Registar </button></a>
+            </div>
+        </div>
+        <my-footer></my-footer>
+    </body>
+    
+</html>
+
+    
